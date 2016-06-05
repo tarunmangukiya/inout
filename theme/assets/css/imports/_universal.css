@@ -58,14 +58,17 @@
 .art-buzz {
     padding-right: 340px;
     background: url(../../images/header-banner/assets-03.png) no-repeat top right;
+    min-height: 251px;
 }
 .art-hackers {
     padding-left: 340px;
     background: url(../../images/header-banner/assets-04.png) no-repeat top left;
+    min-height: 173px;
 }
 .art-growth {
     padding-right: 340px;
     background: url(../../images/header-banner/assets-05.png) no-repeat top right;
+    min-height: 211px;
 }
 
 /* Section type 1 */
