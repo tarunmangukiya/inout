@@ -49,9 +49,11 @@
 .header-banner .footer-bubbles {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    margin-left: -686px;
+    /* left: 50%; */
+    /* margin-left: -686px; */
     min-width: 100%;
+    width: 100%;
+    left: 0;
 }
 
 
