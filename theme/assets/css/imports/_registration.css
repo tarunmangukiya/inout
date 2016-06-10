@@ -142,7 +142,7 @@ legend {
 	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
 	.registration-page .left-side {
 		position: initial;
 		height: 568px;
