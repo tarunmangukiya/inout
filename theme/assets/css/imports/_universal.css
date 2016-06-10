@@ -91,7 +91,7 @@
 
 /* Section type 2 */
 .section-2 {
-    margin-top: 135px;
+    margin-top: 120px;
     margin-bottom: 135px;
     margin-left: 50px;
     margin-right: 50px;
@@ -100,8 +100,10 @@
 .section-2 .sub-title {
     margin-bottom: 30px;
 }
-.section-2 p > img {
+.section-2 img {
     display: inline-block;
+}
+.section-2 p > img {
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -110,6 +112,32 @@
     margin-top: 135px;
     margin-bottom: 135px;
     text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .header-banner {
+        height: 568px;
+    }
+    .header-banner .animated-cloud {
+        width: 76px;
+    }
+    .header-banner .animated-cloud.cloud-1 {
+        top: 270px;
+    }
+    .header-banner .animated-cloud.cloud-2 {
+        top: 250px;
+    }
+    .section-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-2, .section-2 .row>div {
+        text-align: center !important;
+    }
+    .section-2 img { 
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
 
 .btn-apply {
